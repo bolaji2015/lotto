@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+input[type=number]{
+    width: 10%;
+    height: 50px;
+    border-radius: 10px;
+    
+    
+}
+input[type=submit]{
+    width: 19%;
+    height: 41px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: green;
+    
+    
+}
+form{
+    position: relative;
+    text-align: center;
+}
+h1{
+    text-align: center;
+
+}
+.displaybox textarea{
+    position: relative;
+    left: 37%;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 7px;
+    
+}
+@media(max-width:768px){
+    .displaybox textarea{
+        margin-right: 30px;
+    }
+    .container{
+        
+    }
+}
+@media(max-width:580px){
+    .displaybox textarea{
+        position: relative;
+    left: 75px;
+    }
+}
+.container{
+    border: 1px solid black;
+    /* margin: 10% 20% 50% 30%; */
+    background-color: gold;
+    position: relative;
+    top: 100px;
+    border-radius: 20px;
+    width: 100%;
+}
